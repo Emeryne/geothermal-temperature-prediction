@@ -39,26 +39,35 @@ The project follows these steps:
 **Jupyter Notebook**
 
 ## Results
-
-The best-performing model achieved an RMSE of X°C and an R² score of X.
-
 ## Key Findings
+**Finding 1**
+The linear regression model achieved an **R² score of 0.613**, indicating that drilling depth explains approximately 61% of the variation in corrected subsurface temperature within the test dataset.
 
-- Finding 1
-- Finding 2
-- Finding 3
+**Finding 2**
+The model achieved a **Mean Absolute Error (MAE) of 13.72°C**, meaning that the predicted temperatures differed from the observed temperatures by approximately 13.7°C on average.
+
+**Finding 3**
+The **Root Mean Squared Error (RMSE) was 18.16°C**, indicating that larger prediction errors were present in the test dataset.
+
+The results suggest that there is a meaningful relationship between drilling depth and subsurface temperature, but depth alone is not sufficient to accurately explain all temperature variations.
+
+The results also suggest that incorporating additional geological, spatial, and geothermal parameters could potentially improve predictive performance.
 
 ## Limitations
+The model uses **drilling depth as the primary predictor**, while subsurface temperature can also be influenced by geological structure, lithology, fluid movement, geothermal gradient, elevation, and spatial variations.
 
-- Limited dataset size
-- Limited number of geological variables
-- Model performance depends on data quality
+The relatively high **MAE (13.72°C)** and **RMSE (18.16°C)** indicate that the model has substantial prediction errors and should not be considered sufficiently accurate for direct geothermal resource assessment without further development.
+
+Only a **linear regression model** was evaluated in this initial study. More complex machine learning models may be able to capture nonlinear relationships between depth and temperature.
+
+The quality and completeness of the input dataset can influence the reliability of the predictions.
+
+The model's performance may not generalize to other geothermal fields or geological settings because the relationship between depth and temperature can vary spatially and geologically.
 
 ## Future Improvements
+The model performance was evaluated using a single train-test split. Further validation, such as **cross-validation**, would provide a more robust estimate of model performance.
 
-- Test additional machine learning algorithms
-- Include more geological variables
-- Test the model on data from another geothermal field
+Future work should investigate additional predictor variables and compare multiple machine learning algorithms to determine whether prediction accuracy can be improved.
 
 ## How to Run
 
