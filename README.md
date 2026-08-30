@@ -1,10 +1,10 @@
 # Geothermal Temperature Prediction
 
 ## Project Overview
-An interactive Machine learning project for predicting subsurface temperature using Python and scikit-learn based on geological and well related data.
+An interactive Machine learning project for predicting subsurface temperature using Python and scikit-learn based on depth.
 
 ## Problem Statement
-Accurate estimation of subsurface temperature is important for geothermal resource assessment. This project investigates whethermachine learning can be used to predict temperature from available subsurface parameters.
+Accurate estimation of subsurface temperature is important for geothermal resource assessment. This project investigates whether machine learning can be used to predict temperature from drilling depth alone.
 
 ## Objectives
 Explore the geothermal dataset
@@ -51,8 +51,6 @@ The **Root Mean Squared Error (RMSE) was 18.16°C**, indicating that larger pred
 
 The results suggest that there is a meaningful relationship between drilling depth and subsurface temperature, but depth alone is not sufficient to accurately explain all temperature variations.
 
-The results also suggest that incorporating additional geological, spatial, and geothermal parameters could potentially improve predictive performance.
-
 ## Limitations
 The model uses **drilling depth as the primary predictor**, while subsurface temperature can also be influenced by geological structure, lithology, fluid movement, geothermal gradient, elevation, and spatial variations.
 
@@ -68,6 +66,8 @@ The model's performance may not generalize to other geothermal fields or geologi
 The model performance was evaluated using a single train-test split. Further validation, such as **cross-validation**, would provide a more robust estimate of model performance.
 
 Future work should investigate additional predictor variables and compare multiple machine learning algorithms to determine whether prediction accuracy can be improved.
+
+Incorporating additional geological, spatial, and geothermal parameters could potentially improve predictive performance.
 
 ## How to Run
 
