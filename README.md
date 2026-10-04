@@ -7,10 +7,7 @@ An interactive Machine learning project for predicting subsurface temperature us
 Accurate estimation of subsurface temperature is important for geothermal resource assessment. This project investigates whether machine learning can be used to predict temperature from drilling depth alone.
 
 ## Objectives
-Explore the geothermal dataset
-Clean and preprocess the data
-Train machine learning models
-Evaluate model performance
+Explore the geothermal dataset and determine how well depth alone explains temperature
 
 ## Dataset
 The dataset contains measurements of subsurface temperature, depth, longitude and latitude of the wells, and other relevant parameters.
