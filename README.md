@@ -11,7 +11,6 @@ Explore the geothermal dataset
 Clean and preprocess the data
 Train machine learning models
 Evaluate model performance
-Identify the most important predictive features
 
 ## Dataset
 The dataset contains measurements of subsurface temperature, depth, longitude and latitude of the wells, and other relevant parameters.
